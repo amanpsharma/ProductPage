@@ -1,0 +1,14 @@
+.head{
+    color: white;
+    font-size: 2.5rem;
+    font-weight:700;
+}
+.headtext{
+    color: white;
+    font-size: 14px;
+}
+.customBtn{
+    background: linear-gradient(to left, #00c853, #00c853);
+    border-radius:24px;
+    margin-bottom: 10px; 
+}
