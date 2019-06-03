@@ -18,8 +18,8 @@ export default class Feture extends Component {
             <div>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4 p-5" style={{position:'relative'}}>
-                            <img src={Mobile} alt="Mobile" className="img-fluid mobiles"/>               
+                        <div className="col-md-4 col-xl-3 p-5 centerContent">
+                            <img src={Mobile} alt="Mobile" className="img-fluid"/>               
                         </div>
                         <div className="col-md-8 p-5">
                             

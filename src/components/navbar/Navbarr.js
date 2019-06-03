@@ -7,7 +7,7 @@ export default class Navbarr extends Component {
             <div>
                 <Navbar collapseOnSelect expand="lg" variant="dark">
                     <Navbar.Brand href="#home">
-                    <i class="fa fa-product-hunt" aria-hidden="true"></i>
+                    <i class="fa fa-product-hunt" aria-hidden="true" style={{fontSize:'2rem'}}></i>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
