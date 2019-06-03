@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import './thirdsection.css';
+import Movie from '../images/de5d3a0eff90b.png';
 export default class ThirdSection extends Component {
     render() {
         return (
-            <div className="container m-5">
-                <div className="row">
-                    <div className="col-md-6">
+            <div className="container">
+                <div className="row mx-0">
+                    <div className="col-md-6 apps">
                         <h1 className="about">ABOUT THE APP</h1>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -18,8 +19,7 @@ export default class ThirdSection extends Component {
                         <span>Watch More Videos</span>
                     </div>
                     <div className="col-md-6">
-                        <h1>Coming soon...</h1>
-
+                        <img src={Movie} alt="Movie" className="img-fluid"/>            
                     </div>
                 </div>
             </div>

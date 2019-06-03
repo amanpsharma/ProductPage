@@ -1,49 +1,34 @@
 import React, { Component } from 'react'
 import './firstCard.css';
+import Avatar from '../images/user.png'
 import {Card} from 'react-bootstrap';
 export default class FirstCard extends Component {
+    state={
+        detail:[
+            {id:1,image:Avatar,heading:"Awesome Layouts",para:"Lorem ipsum dolor,  eum in, odio quam? Sed dolores doloriSed dolores doloribus laborebus labore provident cumque!"},
+            {id:2,image:Avatar,heading:"Useful Features",para:"Lorem ipsum dolor,  eum in, odio quam? Sed dolores doloriSed dolores doloribus laborebus labore provident cumque!"},
+            {id:3,image:Avatar,heading:"Responsive Layout",para:"Lorem ipsum dolor,  eum in, odio quam? Sed dolores doloriSed dolores doloribus laborebus labore provident cumque!"},
+        ]
+    }
     render() {
         return (
-            <div className="container cards">
-                <div className="row">
-                    <div className="col-md-4">
-                        <Card className="m-5" style={{ width: '18rem', backgroundColor:'#673ab7', border:'none',color:'white'}}>
-                        <i class="fa fa-database text-center m-2" style={{ fontSize:'50px'}} aria-hidden="true"></i>
-                        <Card.Body>
-                            <Card.Title className="text-center">Awesome Layouts</Card.Title>
-                            <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                            </Card.Text>
-                        </Card.Body>
-                        </Card>
-                    </div>
-                    <div className="col-md-4">
-                        <Card className="m-5" style={{ width: '18rem', backgroundColor:'#673ab7', border:'none',color:'white' }}>
-                        <i class="fa fa-deaf text-center m-2" style={{ fontSize:'50px'}} aria-hidden="true"></i>
-                        <Card.Body>
-                            <Card.Title className="text-center">Useful Features</Card.Title>
-                            <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                            </Card.Text>
-                        </Card.Body>
-                        </Card>
-                    </div>
-                    <div className="col-md-4">
-                        <Card className="m-5" style={{ width: '18rem', backgroundColor:'#673ab7', border:'none',color:'white' }}>
-                        <i class="fa fa-desktop text-center m-2" style={{ fontSize:'50px'}} aria-hidden="true"></i>
-                        <Card.Body>
-                            <Card.Title className="text-center">Resposible Layout</Card.Title>
-                            <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                            </Card.Text>
-                        </Card.Body>
-                        </Card>
-                    </div>
+            
+                <div className="container">
+                    <div className="row">
+                        {this.state.detail.map(user=>{
+                            return (
+                            <div className="col-md-4" key={user.id}>
+                                <div className="text-center">
+                                    <img src={user.image} className="img-fluid" alt="user" style={{display:"inline-block"}}/>
+                                    <h5 style={{color:"#fff",fontWeight:"700"}}>{user.heading}</h5>
+                                    <p style={{color:"#fff"}}>{user.para}</p>
+                                </div> 
+                           </div>
+                            )
+                        }
+                        )}
+                    </div>             
                 </div>
-            </div>
         )
     }
 }
