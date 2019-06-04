@@ -1,0 +1,63 @@
+.screens{
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+.basic{
+    background: rgb(219, 219, 219);
+    overflow: hidden;
+    color: rgb(64, 64, 223);
+}
+.basic-2{
+    background: rgb(52, 36, 194);
+    overflow: hidden;
+    color: white;
+}
+.circle-style{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 50%; 
+    position: relative;
+    top: -120px;
+    left: -40px;
+}
+.circle-style-2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(214, 212, 212);
+    border-radius: 50%; 
+    position: relative;
+    top: -120px;
+    left: -40px;
+}
+.circle-text{
+    position: absolute;
+    bottom: 42px;
+    left: 55px;
+    color: white;
+    font-weight: bold;
+}
+.circle-text-2{
+    position: absolute;
+    bottom: 42px;
+    left: 55px;
+    color: black;
+    font-weight: bold;
+
+}
+.byenow{
+    border-radius: 24px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid blue;
+    outline: none !important;
+    font-size: 12px;
+    font-weight: 510;
+    margin: 20px;
+}
+button:hover{
+   background-color: rgb(64, 64, 223);
+   color: white;
+}

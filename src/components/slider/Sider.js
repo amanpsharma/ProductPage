@@ -28,7 +28,7 @@ export default class Sider extends Component {
                         />
                     </Carousel.Item>
                 </Carousel>
-                        </div>
+            </div>
         )
     }
 }

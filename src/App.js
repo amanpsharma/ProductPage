@@ -6,6 +6,10 @@ import Thirdsection from './components/Thirdsection/ThirdSection';
 import Featureside from './components/featuresside/Featureside';
 import Backscreen from './components/screenshoot/Backscreen';
 import Happyuser from './components/Haappyuser/Happyuser';
+import Price from './components/Prices/Price';
+import UseAll from './components/useAll/UseAll';
+import Popular from './components/popular/Popular';
+import Enjoy from './components/enjoy/Enjoy';
 function App() {
   return (
     <div className="App">
@@ -15,6 +19,10 @@ function App() {
       <Featureside />
       <Backscreen />
       <Happyuser />
+      <Price />
+      <UseAll /> 
+      <Popular/>
+      <Enjoy/>
     </div>
   );
 }

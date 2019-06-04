@@ -1,0 +1,11 @@
+.byenows{
+    border-radius: 24px;
+    height: 40px;
+    width: 120px;
+    border: 1px solid white;
+    outline: none !important;
+    font-size: 14px;
+    font-weight: 510;
+    margin: 10px;
+    color: white;
+}
