@@ -10,6 +10,8 @@ import Price from './components/Prices/Price';
 import UseAll from './components/useAll/UseAll';
 import Popular from './components/popular/Popular';
 import Enjoy from './components/enjoy/Enjoy';
+import Feedback from './components/feedback/Feedback';
+import Recentblog from './components/recentblog/Recentblog';
 function App() {
   return (
     <div className="App">
@@ -23,6 +25,8 @@ function App() {
       <UseAll /> 
       <Popular/>
       <Enjoy/>
+      <Feedback />
+      <Recentblog />
     </div>
   );
 }
