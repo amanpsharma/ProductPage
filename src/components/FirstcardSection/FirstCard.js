@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './firstCard.css';
 import Avatar from '../images/user.png'
-import {Card} from 'react-bootstrap';
 export default class FirstCard extends Component {
     state={
         detail:[

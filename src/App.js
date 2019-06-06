@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './App.css';
 import Firstsection from './components/First-Section/First_section';
 import FirstCard from './components/cardsection/CardsectionF';
@@ -12,6 +13,8 @@ import Popular from './components/popular/Popular';
 import Enjoy from './components/enjoy/Enjoy';
 import Feedback from './components/feedback/Feedback';
 import Recentblog from './components/recentblog/Recentblog';
+import Map from './components/Map/Map';
+import Form from './components/form/Forms';
 function App() {
   return (
     <div className="App">
@@ -27,6 +30,8 @@ function App() {
       <Enjoy/>
       <Feedback />
       <Recentblog />
+      <Map />
+      <Form />
     </div>
   );
 }

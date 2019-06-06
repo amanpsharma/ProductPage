@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './happyuser.css'
-import {Card} from 'react-bootstrap';
 
 export default class Happyuser extends Component {
     state={

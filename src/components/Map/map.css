@@ -1,0 +1,50 @@
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:300px;
+    width:100%;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:100vw;
+}
+.subss{
+    height: 100px;
+    width: 600px;
+    background: linear-gradient(to right, #6441a5, #2a0845); 
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.bust{
+    width: 400px;
+    border-radius: 24px;
+    padding: 8px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+    outline: none;
+    border: 1px solid blue;
+}
+.btns{
+    height: 42px;
+    width: 100px;
+    border-radius: 24px;
+    padding: 8px;
+    position: absolute;
+    left: 75%;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+    outline: none;
+    border: 1px solid blue;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #6441a5;
+    outline: none !important;
+}

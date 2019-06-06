@@ -18,10 +18,10 @@ export default class Recentblog extends Component {
                     <div className="row">
                         {this.state.details.map(items=>{
                             return(
-                                <div className="col-md-4 py-3">
+                                <div className="col-md-4"  key={items.id}>
                                     <div className="centering">
-                                    <Card style={{ width: '18rem' }}>
-                                        <Card.Img variant="top" src={User} />
+                                    <Card style={{ width: '18rem' }} className="img-fluid">
+                                        <Card.Img variant="top" src={User}/>
                                         <Card.Body>
                                             <Card.Title>{items.titles}</Card.Title>
                                             <Card.Text>{items.desc}</Card.Text>

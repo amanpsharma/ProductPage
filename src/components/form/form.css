@@ -1,0 +1,33 @@
+
+
+.myform input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.myform input[type="text"]{
+
+    border: none;
+    border-bottom: 2px solid #6441a5;
+    outline: none;
+    height: 40px;;
+}
+.myform input[type="text"]:focus {
+
+    border-bottom: 2px solid #262626;
+}
+.btnn{
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 24px;
+    outline: none;
+    background: #6441a5;
+}
+.msg{
+    height: 80px;
+    width: 440px;
+    border: 1px solid #6441a5;
+    outline: none;
+}
